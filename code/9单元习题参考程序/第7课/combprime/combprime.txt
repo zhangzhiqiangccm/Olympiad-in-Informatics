@@ -1,0 +1,11 @@
+Ê×ÏÈ£¬±àÐ´Ò»¸öÅÐ¶ÏÖÊÊýµÄº¯Êýprime¡£
+¶ÁÈëÊ±¶à¶ÁÈëÒ»¸öÊý×éx[i]£¬´æ·Å´ð°¸µÄ¼ÆÊýÆ÷sumÇå0¡£
+È»ºó£¬ÀûÓÃ¶þ½øÖÆÇî¾Ù·½·¨£¬Çî¾ÙÃ¿ÖÖ×éºÏ£¬ÔÙÅÐ¶ÏºÍÊÇ·ñÎªÖÊÊý¼´¿É¡£
+³ÌÐòµÄÆäËû²¿·ÖÍêÈ«Ò»Ñù£º
+while (b[0]=-1) do   //½áÊøÑ­»·µÄ´Ù·¢Ìõ¼þ
+begin
+    s:=0;
+    for i:=1 to r do  s:=s+x[b[i]];
+    if prime(s) then sum:=sum+1;  
+    ÿ
+end;
